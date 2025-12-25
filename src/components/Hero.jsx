@@ -1,3 +1,5 @@
+import { ArrowRight } from 'lucide-react';
+
 const Hero = () => {
   return (
     <section className="relative pt-32 pb-20 px-6">
@@ -58,3 +60,5 @@ const Hero = () => {
     </section>
   );
 };
+
+export default Hero

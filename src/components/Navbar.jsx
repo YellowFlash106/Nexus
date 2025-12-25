@@ -1,3 +1,7 @@
+
+import React, { useState, useEffect } from 'react';
+import { ArrowRight, Zap, Shield, Sparkles, Menu, X, CheckCircle, Star, Users, TrendingUp, Globe, Lock, Rocket, BarChart3, MessageSquare, Award } from 'lucide-react';
+
 const Navbar = ({ scrolled, mobileMenuOpen, setMobileMenuOpen }) => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/80 backdrop-blur-lg shadow-lg' : ''}`}>
@@ -40,3 +44,5 @@ const Navbar = ({ scrolled, mobileMenuOpen, setMobileMenuOpen }) => {
     </nav>
   );
 };
+
+export default Navbar
