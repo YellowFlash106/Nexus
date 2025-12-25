@@ -1,4 +1,4 @@
-import { Globe, Rocket, Shield, Sparkles, Zap } from "lucide-react";
+import { Globe, Rocket, Shield, Sparkles, Zap, Lock } from "lucide-react";
 
 const Features = () => {
   const features = [

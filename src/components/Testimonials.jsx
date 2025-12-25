@@ -1,3 +1,5 @@
+import { Star } from "lucide-react";
+
 const Testimonials = () => {
   const testimonials = [
     { name: "Sarah Chen", role: "CTO at TechCorp", content: "Nexus transformed how we build and deploy. The speed improvements alone saved us 40% in development time.", avatar: "SC" },

@@ -1,3 +1,5 @@
+import { CheckCircle } from "lucide-react";
+
 const Pricing = () => {
   const plans = [
     { name: "Starter", price: "$29", features: ["Up to 10 projects", "5GB storage", "Community support", "Basic analytics"], highlighted: false },
