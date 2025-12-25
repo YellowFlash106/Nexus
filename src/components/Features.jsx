@@ -1,3 +1,5 @@
+import { Globe, Rocket, Shield, Sparkles, Zap } from "lucide-react";
+
 const Features = () => {
   const features = [
     { icon: Zap, title: "Lightning Fast", description: "Experience unprecedented speed and performance that transforms your workflow" },
